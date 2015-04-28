@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lennux.com.mx.girlsfragment.PictureFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id = "@+id/im_fragmentPicture"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src ="@mipmap/emma"
+            android:layout_margin="@dimen/margin_small"
+            />
+
+        <Button
+            android:id = "@+id/bt_go"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text = "@string/ir_site"
+            android:layout_below="@+id/im_fragmentPicture"
+            android:layout_margin="@dimen/margin_small"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
